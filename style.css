@@ -106,6 +106,85 @@ body {
 }
 
 
+/*-------------Contact Us PAGE--------------*/
+
+#cntctus {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('Photos/train bg.jpg') ;
+}
+#head {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 2em auto;
+    padding: 2em;
+}
+#heading1 {
+    color: #bde560;
+}
+#heading2 {
+    color: #fffdd0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 1em;
+    font-weight: bold;
+    color: #fffdd0;
+}
+input, textarea, button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #000;
+    font-weight: 700;
+}
+textarea, input {
+    opacity: 0.5;
+    resize: none;
+}
+textarea:focus, input:focus {
+    opacity: 1;
+}
+button {
+    background-color: #274d80;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1em;
+    margin-top: 1em;
+}
+button:hover {
+    background-color: #514fd6;
+}
+.container h2,p,ul,a{
+    color: #fffdd0;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #514fd6;
+    color: #fff;
+    width: 100%;
+    bottom: 0;
+}
+footer p{
+    color:white;
+}
+.container li{
+    list-style-type:none;
+    padding: 5px;
+}
+
 
 /*--------Start Media Query--------*/
 @media (max-width:799px) {
@@ -151,3 +230,5 @@ body {
         font-size: 24px;
     }
 }
+
+
